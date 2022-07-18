@@ -1,5 +1,7 @@
 {% docs shipmode %}
 one of the following values:
+
+
 | shipmode       | definition                                         |
 |----------------|----------------------------------------------------|
 | First Class    | Orders are shipped via First Class with Courier    |

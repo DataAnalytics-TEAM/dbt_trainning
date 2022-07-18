@@ -25,8 +25,8 @@ models:
                 values:
                   - 'First Class'
                   - 'Second Class'
+                  - 'Standard Class' 
                   - 'Same Day'
-                  - 'Standard Class'
 
               
            
