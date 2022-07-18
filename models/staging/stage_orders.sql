@@ -1,4 +1,5 @@
  select
+ {{ dbt_utils.surrogate_key(['o.orderid','c.customerid','p.productid']) }} as sk_orders,
  -- field take from orders table
   o.ORDERID,o.ORDERDATE,o.SHIPDATE,o.SHIPMODE,o.CUSTOMERID,o.PRODUCTID,o.ORDERSELLINGPRICE-o.ORDERCOSTPRICE as order_profit,
    -- field take from products table
